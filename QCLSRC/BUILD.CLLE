@@ -1,0 +1,20 @@
+             PGM        PARM(&DEVOPT_P)
+             DCL        VAR(&DEVOPT_P) TYPE(*CHAR) LEN(1)
+             DCL        VAR(&DEVOPT) TYPE(*CHAR) LEN(1)
+             DCL        VAR(&SRCLIB) TYPE(*CHAR) LEN(10) VALUE(QTEMP)
+             DCL        VAR(&TGTLIB) TYPE(*CHAR) LEN(10) VALUE(IBMIMBI)
+             CHGVAR     VAR(&DEVOPT) VALUE(&DEVOPT_P)
+             MONMSG     MSGID(MCH3601) EXEC(CHGVAR VAR(&DEVOPT) VALUE(L))
+             CRTLIB     LIB(&TGTLIB)
+             MONMSG     MSGID(CPF0000)
+             CRTSRCPF   FILE(&TGTLIB/QCLSRC) RCDLEN(132)
+             MONMSG     MSGID(CPF0000)
+             IF         COND(&DEVOPT *NE 'L') THEN(DO)
+             CPYSRCF    FROMFILE(&SRCLIB/QCLSRC) TOFILE(&TGTLIB/QCLSRC) FROMMBR(*ALL)
+             MONMSG     MSGID(CPF0000)
+             IF         COND(&DEVOPT = 'N') THEN(DO)
+             RMVM       FILE(&TGTLIB/QCLSRC) MBR(BUILD)
+             MONMSG     MSGID(CPF0000)
+             ENDDO
+             ENDDO
+             ENDPGM
