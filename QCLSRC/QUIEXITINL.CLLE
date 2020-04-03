@@ -1,0 +1,6 @@
+             DCL        VAR(&TYPCA£) TYPE(*INT)  LEN(4)  /*  Type of call                */
+             DCL        VAR(&APPHN£) TYPE(*CHAR) LEN(8)  /*  Application handle          */
+             DCL        VAR(&LSTNA£) TYPE(*CHAR) LEN(10) /*  List name                   */
+             DCL        VAR(&INCDI£) TYPE(*INT)  LEN(4)  /*  Incomplete list direction   */
+             DCL        VAR(&NUMRE£) TYPE(*INT)  LEN(4)  /*  Number of entries required  */
+
