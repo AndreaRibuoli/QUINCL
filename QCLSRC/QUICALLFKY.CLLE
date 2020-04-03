@@ -1,4 +1,4 @@
-             DCL        VAR(&TYPCA£) TYPE(*INT)  LEN(4)  /*  Type of call            */ +
-             DCL        VAR(&APPHN£) TYPE(*CHAR) LEN(8)  /*  Application handle      */ +
-             DCL        VAR(&PNLNA£) TYPE(*CHAR) LEN(10) /*  Panel name              */ +
+             DCL        VAR(&TYPCA£) TYPE(*INT)  LEN(4)  /*  Type of call            */
+             DCL        VAR(&APPHN£) TYPE(*CHAR) LEN(8)  /*  Application handle      */
+             DCL        VAR(&PNLNA£) TYPE(*CHAR) LEN(10) /*  Panel name              */
              DCL        VAR(&FNCKE£) TYPE(*INT)  LEN(4)  /*  Function key pressed    */ 
