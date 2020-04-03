@@ -24,6 +24,7 @@
              DCL        VAR(&SHARE)  TYPE(*CHAR) LEN(1)  VALUE(N)
              DCL        VAR(&SLTHND) TYPE(*CHAR) LEN(4)  VALUE(EXTE)
              DCL        VAR(&STKCNT) TYPE(*INT)  LEN(4)  VALUE(0)
+             DCL        VAR(&TYPCAL) TYPE(*INT)  LEN(4)
              DCL        VAR(&USRDTA) TYPE(*CHAR) LEN(10) VALUE(*NONE)
              DCL        VAR(&USRTSK) TYPE(*CHAR) LEN(1)  VALUE(O)
              DCL        VAR(&UPDOPT) TYPE(*CHAR) LEN(4)  VALUE(SAME)
