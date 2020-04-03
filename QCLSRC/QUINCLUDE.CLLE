@@ -8,6 +8,7 @@
              DCL        VAR(&ERRLE)  TYPE(*CHAR) LEN(4)  VALUE(NONE)
              DCL        VAR(&EXITIN) TYPE(*INT)  LEN(4)  VALUE(1)
              DCL        VAR(&EXTOPT) TYPE(*CHAR) LEN(1)  VALUE(Y)
+             DCL        VAR(&FNCKEY) TYPE(*INT)  LEN(4)
              DCL        VAR(&FNCQUA) TYPE(*INT)  LEN(4)  VALUE(0)      /*  Function qualifier          */
              DCL        VAR(&FNCREQ) TYPE(*INT)  LEN(4)  VALUE(0)      /*  Function requested          */
              DCL        VAR(&FULHLP) TYPE(*CHAR) LEN(1)  VALUE(N)

@@ -5,3 +5,12 @@
              DCL        VAR(&SLTHN£) TYPE(*CHAR) LEN(4)  /*  List entry handle       */
              DCL        VAR(&OPTNU£) TYPE(*INT)  LEN(4)  /*  Option number           */
              DCL        VAR(&FNCQU£) TYPE(*INT)  LEN(4)  /*  Function qualifier      */
+             INCLUDE    SRCMBR(QUINCLUDE)
+             CHGVAR     VAR(&TYPCAL) VALUE(&TYPCA£)
+             CHGVAR     VAR(&APPHND) VALUE(&APPHN£)
+             CHGVAR     VAR(&PNLNAM) VALUE(&PNLNA£)
+             CHGVAR     VAR(&LSTNAM) VALUE(&LSTNA£)
+             CHGVAR     VAR(&SLTHND) VALUE(&SLTHN£)
+             CHGVAR     VAR(&OPTNUM) VALUE(&OPTNU£)
+             CHGVAR     VAR(&FNCQUA) VALUE(&FNCQU£)
+
