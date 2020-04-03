@@ -2,7 +2,7 @@
              DCL        VAR(&DEVOPT_P) TYPE(*CHAR) LEN(1)
              DCL        VAR(&DEVOPT) TYPE(*CHAR) LEN(1)
              DCL        VAR(&SRCLIB) TYPE(*CHAR) LEN(10) VALUE(QTEMP)
-             DCL        VAR(&TGTLIB) TYPE(*CHAR) LEN(10) VALUE(IBMIMBI)
+             DCL        VAR(&TGTLIB) TYPE(*CHAR) LEN(10) VALUE(QUINCL)
              CHGVAR     VAR(&DEVOPT) VALUE(&DEVOPT_P)
              MONMSG     MSGID(MCH3601) EXEC(CHGVAR VAR(&DEVOPT) VALUE(L))
              CRTLIB     LIB(&TGTLIB)
