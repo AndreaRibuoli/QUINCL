@@ -1,0 +1,7 @@
+             DCL        VAR(&TYPCA£) TYPE(*INT)  LEN(4)  /*  Type of call            */
+             DCL        VAR(&APPHN£) TYPE(*CHAR) LEN(8)  /*  Application handle      */
+             DCL        VAR(&PNLNA£) TYPE(*CHAR) LEN(10) /*  Panel name              */
+             DCL        VAR(&LSTNA£) TYPE(*CHAR) LEN(10) /*  List name               */
+             DCL        VAR(&SLTHN£) TYPE(*CHAR) LEN(4)  /*  List entry handle       */
+             DCL        VAR(&OPTNU£) TYPE(*INT)  LEN(4)  /*  Option number           */
+             DCL        VAR(&FNCQU£) TYPE(*INT)  LEN(4)  /*  Function qualifier      */
