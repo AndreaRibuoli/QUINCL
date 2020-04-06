@@ -47,7 +47,7 @@
              DCL        VAR(&RSRV1)  TYPE(*CHAR) STG(*DEFINED) LEN(1)    DEFVAR(&ERRCOD 16)
              DCL        VAR(&MSGDTA) TYPE(*CHAR) STG(*DEFINED) LEN(240)  DEFVAR(&ERRCOD 17)
 
-             DCL        VAR(&LATTR) TYPE(*CHAR) LEN(256) VALUE('SAME*SAME     SAMES')
+             DCL        VAR(&LATTR) TYPE(*CHAR) LEN(20) VALUE('SAME*SAME     SAMES')
              DCL        VAR(&CONTNT) TYPE(*CHAR) STG(*DEFINED) LEN(4)    DEFVAR(&LATTR  1)
              DCL        VAR(&INCPGM) TYPE(*CHAR) STG(*DEFINED) LEN(10)   DEFVAR(&LATTR  5)
              DCL        VAR(&POSLE)  TYPE(*CHAR) STG(*DEFINED) LEN(4)    DEFVAR(&LATTR 15)
