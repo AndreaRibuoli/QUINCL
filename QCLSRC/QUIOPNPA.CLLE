@@ -1,0 +1,10 @@
+             CALL       PGM(QUIOPNPA) PARM(+
+                          &APPHND   /* Application handle                    */ +
+                          &PNLGRP   /* Qualified panel group name            */ +
+                          &SCOPE    /* Application scope                     */ +
+                          &EXITIN   /* Exit parameter interface              */ +
+                          &PRTFNM   /* Qualified name of printer device file */ +
+                          &ALTFNM   /* Alternative file name                 */ +
+                          &SHARE    /* Share open data path                  */ +
+                          &USRDTA   /* User data                             */ +
+                          &ERRCOD   /* Error code                            */ )
