@@ -1,0 +1,16 @@
+              DCL        VAR(&TYPCA£) TYPE(*INT)  LEN(4)  /*  Type of call                */
+              DCL        VAR(&APPHN£) TYPE(*CHAR) LEN(8)  /*  Application handle          */
+              DCL        VAR(&PNLNA£) TYPE(*CHAR) LEN(10) /*  Panel name                  */
+              DCL        VAR(&ELETY£) TYPE(*CHAR) LEN(1)  /*  Panel element type          */
+              DCL        VAR(&VARNA£) TYPE(*CHAR) LEN(10) /*  Dialog variable name        */
+              DCL        VAR(&LSTNA£) TYPE(*CHAR) LEN(10) /*  List name                   */
+              DCL        VAR(&SLTHN£) TYPE(*CHAR) LEN(4)  /*  List entry handle           */
+              INCLUDE    SRCMBR(QUINCLUDE)
+              CHGVAR     VAR(&TYPCAL) VALUE(&TYPCA£)
+              CHGVAR     VAR(&APPHND) VALUE(&APPHN£)
+              CHGVAR     VAR(&PNLNAM) VALUE(&PNLNA£)
+              CHGVAR     VAR(&ELETYP) VALUE(&ELETY£)
+              CHGVAR     VAR(&VARNA§) VALUE(&VARNA£)
+              CHGVAR     VAR(&LSTNAM) VALUE(&LSTNA£)
+              CHGVAR     VAR(&SLTHND) VALUE(&SLTHN£)
+
