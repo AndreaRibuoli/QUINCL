@@ -34,7 +34,6 @@
              DCL        VAR(&USRDTA) TYPE(*CHAR) LEN(10) VALUE(*NONE)
              DCL        VAR(&USRTSK) TYPE(*CHAR) LEN(1)  VALUE(O)
              DCL        VAR(&UPDOPT) TYPE(*CHAR) LEN(4)  VALUE(SAME)
-             DCL        VAR(&VARNA§) TYPE(*CHAR) LEN(10)
              DCL        VAR(&WINCOL) TYPE(*INT)  LEN(4)  VALUE(10)
              DCL        VAR(&WINLOC) TYPE(*CHAR) LEN(10) VALUE(*OFFSET)
              DCL        VAR(&WINROW) TYPE(*INT)  LEN(4)  VALUE(3)
