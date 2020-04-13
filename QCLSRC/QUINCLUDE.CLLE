@@ -4,6 +4,7 @@
              DCL        VAR(&CLOOPT) TYPE(*CHAR) LEN(1)  VALUE(M)
              DCL        VAR(&CPYOPT) TYPE(*CHAR) LEN(1)  VALUE(Y)
              DCL        VAR(&CURPOS) TYPE(*CHAR) LEN(1)  VALUE(D)
+             DCL        VAR(&ELETYP) TYPE(*CHAR) LEN(1)
              DCL        VAR(&EJECT)  TYPE(*CHAR) LEN(1)  VALUE(Y)
              DCL        VAR(&ERRLE)  TYPE(*CHAR) LEN(4)  VALUE(NONE)
              DCL        VAR(&EXITIN) TYPE(*INT)  LEN(4)  VALUE(1)
@@ -33,6 +34,7 @@
              DCL        VAR(&USRDTA) TYPE(*CHAR) LEN(10) VALUE(*NONE)
              DCL        VAR(&USRTSK) TYPE(*CHAR) LEN(1)  VALUE(O)
              DCL        VAR(&UPDOPT) TYPE(*CHAR) LEN(4)  VALUE(SAME)
+             DCL        VAR(&VARNA§) TYPE(*CHAR) LEN(10)
              DCL        VAR(&WINCOL) TYPE(*INT)  LEN(4)  VALUE(10)
              DCL        VAR(&WINLOC) TYPE(*CHAR) LEN(10) VALUE(*OFFSET)
              DCL        VAR(&WINROW) TYPE(*INT)  LEN(4)  VALUE(3)
@@ -73,8 +75,8 @@
              DCL        VAR(&PMTKEY) TYPE(*INT) STG(*DEFINED) LEN(4)    DEFVAR(&UIMKEY  1)
 
              DCL        VAR(&VARRCD_P) TYPE(*PTR) ADDRESS(*NULL)
-             DCL        VAR(&VARRCD_S) TYPE(*CHAR) STG(*BASED) LEN(314)  BASPTR(&VARRCD_P)              
+             DCL        VAR(&VARRCD_S) TYPE(*CHAR) STG(*BASED) LEN(314)  BASPTR(&VARRCD_P)
              DCL        VAR(&VARNAM)  TYPE(*CHAR) STG(*DEFINED) LEN( 10) DEFVAR(&VARRCD_S  1)
              DCL        VAR(&VARLEN)  TYPE(*INT)  STG(*DEFINED) LEN(  4) DEFVAR(&VARRCD_S 11)
              DCL        VAR(&VARRCD)  TYPE(*CHAR) STG(*DEFINED) LEN(300) DEFVAR(&VARRCD_S 15)
-             
+
