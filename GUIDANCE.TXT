@@ -4,6 +4,7 @@ QCLSRC    QUICALLALOCLLE      CALL for Action List Option parms
 QCLSRC    QUICALLFKYCLLE      CALL for Function Key parms
 QCLSRC    QUIEXITINLCLLE      EXIT for Incomplete List parms
 QCLSRC    QUIEXITCSPCLLE      EXIT for Cursor-Sensitive Prompt parms
+QCLSRC    QUIEXITGPCCLLE      EXIT for General Panel Checking parms
 QCLSRC    QUICLOA   CLLE      Close Application API
 QCLSRC    QUIOPNDA  CLLE      Open Display Application API
 QCLSRC    QUIOPNPA  CLLE      Open Print Application API
