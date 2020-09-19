@@ -1,13 +1,13 @@
-             DCL        VAR(&TYPCA£) TYPE(*INT)  LEN(4)  /*  Type of call                */
-             DCL        VAR(&APPHN£) TYPE(*CHAR) LEN(8)  /*  Application handle          */
-             DCL        VAR(&LSTNA£) TYPE(*CHAR) LEN(10) /*  List name                   */
-             DCL        VAR(&INCDI£) TYPE(*INT)  LEN(4)  /*  Incomplete list direction   */
-             DCL        VAR(&NUMRE£) TYPE(*INT)  LEN(4)  /*  Number of entries required  */
+             DCL        VAR(&TYPCA_) TYPE(*INT)  LEN(4)  /*  Type of call                */
+             DCL        VAR(&APPHN_) TYPE(*CHAR) LEN(8)  /*  Application handle          */
+             DCL        VAR(&LSTNA_) TYPE(*CHAR) LEN(10) /*  List name                   */
+             DCL        VAR(&INCDI_) TYPE(*INT)  LEN(4)  /*  Incomplete list direction   */
+             DCL        VAR(&NUMRE_) TYPE(*INT)  LEN(4)  /*  Number of entries required  */
              INCLUDE    SRCMBR(QUINCLUDE)
-             CHGVAR     VAR(&TYPCAL) VALUE(&TYPCA£)
-             CHGVAR     VAR(&APPHND) VALUE(&APPHN£)
-             CHGVAR     VAR(&LSTNAM) VALUE(&LSTNA£)
-             CHGVAR     VAR(&INCDIR) VALUE(&INCDI£)
-             CHGVAR     VAR(&NUMREQ) VALUE(&NUMRE£)
+             CHGVAR     VAR(&TYPCAL) VALUE(&TYPCA_)
+             CHGVAR     VAR(&APPHND) VALUE(&APPHN_)
+             CHGVAR     VAR(&LSTNAM) VALUE(&LSTNA_)
+             CHGVAR     VAR(&INCDIR) VALUE(&INCDI_)
+             CHGVAR     VAR(&NUMREQ) VALUE(&NUMRE_)
 
 

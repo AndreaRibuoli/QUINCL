@@ -1,16 +1,16 @@
-             DCL        VAR(&TYPCA£) TYPE(*INT)  LEN(4)  /*  Type of call            */
-             DCL        VAR(&APPHN£) TYPE(*CHAR) LEN(8)  /*  Application handle      */
-             DCL        VAR(&PNLNA£) TYPE(*CHAR) LEN(10) /*  Panel name              */
-             DCL        VAR(&LSTNA£) TYPE(*CHAR) LEN(10) /*  List name               */
-             DCL        VAR(&SLTHN£) TYPE(*CHAR) LEN(4)  /*  List entry handle       */
-             DCL        VAR(&OPTNU£) TYPE(*INT)  LEN(4)  /*  Option number           */
-             DCL        VAR(&FNCQU£) TYPE(*INT)  LEN(4)  /*  Function qualifier      */
+             DCL        VAR(&TYPCA_) TYPE(*INT)  LEN(4)  /*  Type of call            */
+             DCL        VAR(&APPHN_) TYPE(*CHAR) LEN(8)  /*  Application handle      */
+             DCL        VAR(&PNLNA_) TYPE(*CHAR) LEN(10) /*  Panel name              */
+             DCL        VAR(&LSTNA_) TYPE(*CHAR) LEN(10) /*  List name               */
+             DCL        VAR(&SLTHN_) TYPE(*CHAR) LEN(4)  /*  List entry handle       */
+             DCL        VAR(&OPTNU_) TYPE(*INT)  LEN(4)  /*  Option number           */
+             DCL        VAR(&FNCQU_) TYPE(*INT)  LEN(4)  /*  Function qualifier      */
              INCLUDE    SRCMBR(QUINCLUDE)
-             CHGVAR     VAR(&TYPCAL) VALUE(&TYPCA£)
-             CHGVAR     VAR(&APPHND) VALUE(&APPHN£)
-             CHGVAR     VAR(&PNLNAM) VALUE(&PNLNA£)
-             CHGVAR     VAR(&LSTNAM) VALUE(&LSTNA£)
-             CHGVAR     VAR(&SLTHND) VALUE(&SLTHN£)
-             CHGVAR     VAR(&OPTNUM) VALUE(&OPTNU£)
-             CHGVAR     VAR(&FNCQUA) VALUE(&FNCQU£)
+             CHGVAR     VAR(&TYPCAL) VALUE(&TYPCA_)
+             CHGVAR     VAR(&APPHND) VALUE(&APPHN_)
+             CHGVAR     VAR(&PNLNAM) VALUE(&PNLNA_)
+             CHGVAR     VAR(&LSTNAM) VALUE(&LSTNA_)
+             CHGVAR     VAR(&SLTHND) VALUE(&SLTHN_)
+             CHGVAR     VAR(&OPTNUM) VALUE(&OPTNU_)
+             CHGVAR     VAR(&FNCQUA) VALUE(&FNCQU_)
 
