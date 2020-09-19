@@ -1,23 +1,34 @@
 QCLSRC    BUILD     CLLE      QUINCL installation CL
-QCLSRC    QUIADDLE  CLLE      QUIADDLE   
-QCLSRC    QUIADDPA  CLLE      QUIADDPA  
-QCLSRC    QUIADDPW  CLLE      QUIADDPW  
-QCLSRC    QUICALLALOCLLE      CALL for Action List Option parms
-QCLSRC    QUICALLFKYCLLE      CALL for Function Key       parms
-QCLSRC    QUICLOA   CLLE      QUICLOA   
-QCLSRC    QUIDLTL   CLLE      QUIDLTL   
-QCLSRC    QUIDSPP   CLLE      QUIDSPP   
-QCLSRC    QUIDSPP1  CLLE      QUIDSPP1   
-QCLSRC    QUIEXITINLCLLE      Exit for Incomplete List    parms
-QCLSRC    QUIGETLE  CLLE      QUIGETLE   
-QCLSRC    QUIGETV   CLLE      QUIGETV   
 QCLSRC    QUINCLUDE CLLE      QUINCLUDE   
-QCLSRC    QUIOPNDA  CLLE      QUIOPNDA 
-QCLSRC    QUIPRTP   CLLE      QUIPRTP   
-QCLSRC    QUIPUTV   CLLE      QUIPUTV   
-QCLSRC    QUIRMVLE  CLLE      QUIRMVLE  
-QCLSRC    QUIRMVPA  CLLE      QUIRMVPA  
-QCLSRC    QUIRMVPW  CLLE      QUIRMVPW  
-QCLSRC    QUIRTVLA  CLLE      QUIRTVLA  
-QCLSRC    QUISETLA  CLLE      QUISETLA   
-QCLSRC    QUIUPDLE  CLLE      QUIUPDLE   
+QCLSRC    QUICALLALOCLLE      CALL for Action List Option parms
+QCLSRC    QUICALLFKYCLLE      CALL for Function Key parms
+QCLSRC    QUIEXITINLCLLE      EXIT for Incomplete List parms
+QCLSRC    QUIEXITCSPCLLE      EXIT for Cursor-Sensitive Prompt parms
+QCLSRC    QUIEXITGPCCLLE      EXIT for General Panel Checking parms
+QCLSRC    QUICLOA   CLLE      Close Application API
+QCLSRC    QUIOPNDA  CLLE      Open Display Application API
+QCLSRC    QUIOPNPA  CLLE      Open Print Application API
+QCLSRC    QUIADDPW  CLLE      Add Pop-Up Window API
+QCLSRC    QUSCMDLN  CLLE      Display Command Line Window API
+QCLSRC    QUHDSPH   CLLE      Display Help API
+QCLSRC    QUILNGTX  CLLE      Display Long Text API
+QCLSRC    QUIDSPP   CLLE      Display Panel API
+QCLSRC    QUIDSPP1  CLLE      Display Panel API (param group 1)
+QCLSRC    QUIRMVPW  CLLE      Remove Pop-Up Window API
+QCLSRC    QUHRHLPT  CLLE      Retrieve Help Text API
+QCLSRC    QUISETSC  CLLE      Set Screen Image API
+QCLSRC    QUIADDLE  CLLE      Add List Entry API
+QCLSRC    QUIADDLM  CLLE      Add List Multiple Entries API
+QCLSRC    QUIDLTL   CLLE      Delete List API
+QCLSRC    QUIGETLE  CLLE      Get List Entry API
+QCLSRC    QUIGETLM  CLLE      Get List Multiple Entries API
+QCLSRC    QUIRMVLE  CLLE      Remove List Entry API
+QCLSRC    QUIRTVLA  CLLE      Retrieve List Attributes API
+QCLSRC    QUISETLA  CLLE      Set List Attributes API
+QCLSRC    QUIUPDLE  CLLE      Update List Entry API
+QCLSRC    QUIADDPA  CLLE      Add Print Application API
+QCLSRC    QUHPRTH   CLLE      Print Help API
+QCLSRC    QUIPRTP   CLLE      Print Panel API
+QCLSRC    QUIRMVPA  CLLE      Remove Print Application API
+QCLSRC    QUIGETV   CLLE      Get Dialog Variable API
+QCLSRC    QUIPUTV   CLLE      Put Dialog Variable API
