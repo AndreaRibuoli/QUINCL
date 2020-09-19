@@ -42,7 +42,7 @@
              /*     *DEFINED CL variables cannot be assigned a VALUE during DCL      */
              DCL        VAR(&ERRCOD) TYPE(*CHAR) LEN(256) VALUE(X'00000000')
              DCL        VAR(&BYTPRO) TYPE(*INT)  STG(*DEFINED) LEN(4)    DEFVAR(&ERRCOD  1)
-             DCL        VAR(&BYTAVA) TYPE(*INT)  STG(*DEFINED) LEN(8)    DEFVAR(&ERRCOD  5)
+             DCL        VAR(&BYTAVA) TYPE(*INT)  STG(*DEFINED) LEN(4)    DEFVAR(&ERRCOD  5)
              DCL        VAR(&MSGID)  TYPE(*CHAR) STG(*DEFINED) LEN(7)    DEFVAR(&ERRCOD  9)
              DCL        VAR(&RSRV1)  TYPE(*CHAR) STG(*DEFINED) LEN(1)    DEFVAR(&ERRCOD 16)
              DCL        VAR(&MSGDTA) TYPE(*CHAR) STG(*DEFINED) LEN(240)  DEFVAR(&ERRCOD 17)
