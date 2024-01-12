@@ -1,10 +1,22 @@
-             PGM        PARM(&DEVOPT_P)
+             PGM        PARM(&DEVOPT_P &TGTRLS_P &TGTLIB_P)
              DCL        VAR(&DEVOPT_P) TYPE(*CHAR) LEN(1)
              DCL        VAR(&DEVOPT) TYPE(*CHAR) LEN(1)
+             DCL        VAR(&TGTRLS_P) TYPE(*CHAR) LEN(10)
+             DCL        VAR(&TGTRLS) TYPE(*CHAR) LEN(10)
+             DCL        VAR(&TGTLIB_P) TYPE(*CHAR) LEN(10)
+             DCL        VAR(&TGTLIB) TYPE(*CHAR) LEN(10)
              DCL        VAR(&SRCLIB) TYPE(*CHAR) LEN(10) VALUE(QTEMP)
              DCL        VAR(&TGTLIB) TYPE(*CHAR) LEN(10) VALUE(QUINCL)
              CHGVAR     VAR(&DEVOPT) VALUE(&DEVOPT_P)
              MONMSG     MSGID(MCH3601) EXEC(CHGVAR VAR(&DEVOPT) VALUE(L))
+             CHGVAR     VAR(&TGTRLS) VALUE(&TGTRLS_P)
+             MONMSG     MSGID(MCH3601) +
+                        EXEC(CHGVAR VAR(&TGTRLS) VALUE(*CURRENT))
+             CHGVAR     VAR(&TGTLIB) VALUE(&TGTLIB_P)
+             MONMSG     MSGID(MCH3601) +
+                        EXEC(CHGVAR VAR(&TGTLIB) VALUE(*PACKAGEN))
+             IF COND(&TGTLIB = '*PACKAGEN ') +
+                        THEN(CHGVAR VAR(&TGTLIB) VALUE(QUINCL))
              CRTLIB     LIB(&TGTLIB)
              MONMSG     MSGID(CPF0000)
              CRTSRCPF   FILE(&TGTLIB/QCLSRC) RCDLEN(132)
